@@ -34,9 +34,8 @@ export default {
 
   cloudinary: {
     cloudName: "terieyenike",
-    apiKey: process.env.NUXT_IMAGE_PLACEHOLDERS_APIKEY,
-    apiSecret: process.env.NUXT_IMAGE_PLACEHOLDERS_APISECRET,
-    // secure: true,
+    apiKey: process.env.NUXT_API_KEY,
+    apiSecret: process.env.NUXT_API_SECRET,
     useComponent: true,
   },
 
